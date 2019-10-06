@@ -21,25 +21,31 @@ body{
     margin: 5%;
     border-radius: 10px;
     background-color: lightgray;
-    /* border: solid black 1px; */
-    /* border: solid black 1px; */
-}
+    }
 .img1{
-position:absolute;
-padding: 1px;
-margin-left: 10px;
+    width: 30px;
+    position:absolute;
+    padding: 1px;
+    margin-left: 8px;
+    margin-bottom: 7px;
 }
 .text1 {
+    height: 100%;
     background-color: lightgrey;
     width: 100%;
     border-radius: 5%;
     padding-left: 25px;
     outline: none;
-    width: 70%;
+    width: 73%;
+    top: -7px;
+    position: relative;
+    left: 17px;
+    font-size: 25px;
     margin-left: 20px;
     border-style: none;
 }
 .add1 {
+    width: 30px;
     margin-left: 11px;
     /*float: right;*/
     position: absolute;
@@ -52,17 +58,37 @@ margin-left: 10px;
     margin-right: 14px;
     cursor: pointer;
     padding-right: 10px;
+    color:gray
 }
-.tasks2, .tasks3, .tasks4{
+.btn2:hover{
+    color: black;
+}
+.btn1{
+    margin-left: 14px;
+    cursor: pointer;
+    color:gray
+}
+.btn1:hover{
+    color:black;
+}
+.tasks1{
+    padding-left: 5px;
+    cursor: pointer;
+    color: gray;
+}
+.tasks1:hover{
+    color: black;
+}
+.tasks2, .tasks2, .tasks2{
     float: right;
     padding: 0px;
     padding-right: 5px;
     cursor: pointer;
     padding-right: 10px;
+    color: gray;
 }
-.tasks1{
-    padding-left: 5px;
-    cursor: pointer;
+.tasks2:hover, .tasks2:hover, .tasks2:hover{
+    color: black;
 }
 .txt1{
     cursor: pointer;
